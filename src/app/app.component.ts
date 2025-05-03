@@ -1,7 +1,7 @@
 import { AfterViewInit, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
-import { CursorEffectDirective } from './core/directives/cursor-effect.directive';
+// import { CursorEffectDirective } from './core/directives/cursor-effect.directive';
 import { FirstSectionComponent } from './first-section/first-section.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SecondSectionComponent } from './second-section/second-section.component';
@@ -16,7 +16,6 @@ interface CustomHTMLDivElement extends HTMLDivElement {
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
     NavbarComponent,
     FirstSectionComponent,
     SecondSectionComponent,
@@ -24,7 +23,6 @@ interface CustomHTMLDivElement extends HTMLDivElement {
     ForthSectionComponent,
     FifthSectionComponent,
     FooterComponent,
-    CursorEffectDirective,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

@@ -4,7 +4,7 @@
   transform: scale(var(--scale));
   height: auto;
   min-height: 90vh;
-  margin-top: -1%;
+  margin-top: -20px;
   overflow: hidden;
 }
 .folder-container {
@@ -12,6 +12,7 @@
   width: 100%;
   padding: 6% 0 0;
   height: 100%;
+  min-height: 90vh;
 
   .folder-background {
     position: absolute;

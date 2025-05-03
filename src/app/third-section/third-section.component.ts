@@ -174,7 +174,4 @@ export class ThirdSectionComponent {
       foregroundColor: '#FFFFFF',
     },
   ];
-  getColor(isOdd: boolean) {
-    return isOdd ? '#2A3065' : 'var(--white-text)';
-  }
 }

@@ -3,8 +3,7 @@
     <div class="projects">
         <app-folder *ngFor="let project of projects;let index=index; let isOdd = odd;let isLast = last"
             [project]="project" [index]="index" [mainColor]="project.mainColor"
-            [secondaryColor]="project.secondaryColor" [foregroundColor]="project.foregroundColor"
-            [isLast]="isLast"></app-folder>
+            [secondaryColor]="project.secondaryColor" [foregroundColor]="project.foregroundColor"></app-folder>
     </div>
 
 </div>

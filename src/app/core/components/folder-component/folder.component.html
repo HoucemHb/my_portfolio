@@ -1,5 +1,4 @@
-<div class="folder-wrapper"
-    [ngStyle]="{'--offset':isLast?0: index*30+'px', '--scale': (1 + index * 0.02),'position': isLast ? 'relative' : 'sticky'}">
+<div class="folder-wrapper" [ngStyle]="{'--offset': index*15+'px', '--scale': (1 + index * 0.02),'position': 'sticky'}">
     <div class="folder-container">
         <svg class="folder-background" *ngIf="isDesktop" viewBox="0 0 1616 900" preserveAspectRatio="none"
             aria-hidden="true" [style.fill]="mainColor">
@@ -25,10 +24,11 @@
 
                     <!-- Key Features -->
                     <div *ngIf="project.keyFeatures?.length">
-                        <p [style.color]="foregroundColor"><strong>Key Features:</strong></p>
+                        <p [style.color]="foregroundColor"><strong>Key Features: </strong></p>
+                        <br>
                         <ul>
                             <li *ngFor="let feature of project.keyFeatures" [style.color]="foregroundColor">
-                                <p>✅ {{ feature }}</p>
+                                <p><i class="fa-solid fa-check" [style.color]="secondaryColor"></i> {{ feature }}</p>
                             </li>
                         </ul>
                     </div>

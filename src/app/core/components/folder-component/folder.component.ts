@@ -25,7 +25,6 @@ export class FolderComponent {
   @Input() foregroundColor: string = AppUtils.getCssVariable('--black-text');
   @Input({ required: true }) project!: Project;
   @Input() index: number = 0;
-  @Input() isLast: boolean = false;
 
   isDesktop: boolean = true;
 
