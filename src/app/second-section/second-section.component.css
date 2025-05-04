@@ -31,17 +31,10 @@
   padding: clamp(1.5rem, 3vw, 2.5rem);
   aspect-ratio: 9/11;
   background-color: var(--dark-gray);
-  opacity: 1;
-  transition: all 0.8s ease-out;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.card.visible {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 .card img {

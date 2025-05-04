@@ -20,12 +20,7 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    to left,
-    var(--background-color),
-    var(--black-text),
-    var(--black-text)
-  );
+  background-color: #121212;
   height: 100%;
   font-family: "Inter", sans-serif;
   /* cursor: none; */

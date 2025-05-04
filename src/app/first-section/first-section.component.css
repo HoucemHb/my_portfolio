@@ -30,7 +30,7 @@ h5 .drives {
 .gray-button {
   background-color: var(--dark-gray);
   color: var(--light-gray);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .gray-button i {
